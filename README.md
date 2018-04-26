@@ -29,8 +29,8 @@ python smear-detection.py
 ### Final Results:
 After running smear-detection.py, you will receive 3 results for each camera:
 
-1.cam_number_mean_image.jpg
-2.cam_number_intermediate_mask.jpg
-3.cam_number_final_mask.jpg
+1. cam_number_mean_image.jpg
+2. cam_number_intermediate_mask.jpg
+3. cam_number_final_mask.jpg
 
 where cam_number is the name of the sub-directory
