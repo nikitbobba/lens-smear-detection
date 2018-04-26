@@ -7,7 +7,7 @@ In order to run this script, you must have `Python 2.7` installed. Additionally,
 
 We recommend creating a `conda` environment and installing these two required packages.
 
-###Running the project
+### Running the project
 In order to run our project, a directory must be specified that locates the image sets. Open smear-detection.py. At the top of the script, there is a variable called `path`. Enter the path to your directory here. The directory should specify the folder that contains all the subfolders with the images from each camera.
 
 Example:
