@@ -24,7 +24,7 @@ ___cam_5
 
 Once 'path' has been updated in smear-detection.py, you can run the script by calling the following command:
 
-python smear-detection.py
+`python smear-detection.py`
 
 ### Final Results:
 After running smear-detection.py, you will receive 3 results for each camera:
@@ -33,4 +33,4 @@ After running smear-detection.py, you will receive 3 results for each camera:
 2. cam_number_intermediate_mask.jpg
 3. cam_number_final_mask.jpg
 
-where cam_number is the name of the sub-directory
+where `cam_number` is the name of the sub-directory
