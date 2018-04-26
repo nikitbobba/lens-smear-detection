@@ -3,7 +3,7 @@
 An application that will detect any smear on camera lens given a set of images taken by the camera.
 
 ### Setup
-In order to run this project, you must have `Python 2.7` installed. Additionally, you will need to have Open CV and Numpy installed as well. 
+In order to run this script, you must have `Python 2.7` installed. Additionally, you will need to have Open CV and Numpy installed as well. 
 
 We recommend creating a `conda` environment and installing these two required packages.
 
@@ -14,12 +14,14 @@ Example:
 
 sample_drive contains 4 folders. Ensure that the `path` variable contains the path to the sample drive directory. The function 'start-detection' will then be able to automatically identify all the sub-directories in the path (i.e. cam_0, cam_1 etc) and create final images for each sub-directory.
 
+```
 _sample_drive
 ___cam_0
 ___cam_1
 ___cam_2
 ___cam_3
 ___cam_5
+```
 
 
 Once 'path' has been updated in smear-detection.py, you can run the script by calling the following command:
